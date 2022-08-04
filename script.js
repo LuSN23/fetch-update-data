@@ -1,3 +1,4 @@
+
 fetch('https://reqres.in/api/users', {  //applying a url to fetch data through an fake API called reqres
     method: 'POST',
     headers: {
@@ -13,3 +14,4 @@ fetch('https://reqres.in/api/users', {  //applying a url to fetch data through a
     })
 }).then(response => response.json()) //receveing the Response object from Fetch, converting the data to JSON and passing ahead to the other .then
   .then(data => console.log(data))   //receveing the JSON converted response(Promise) and showing it in the log
+  .catch(error => console.log('ERROR', error.message)); //handling possible errors
