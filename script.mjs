@@ -2,7 +2,6 @@ import fetch from 'node-fetch';
 
 fetch('https://reqres.in/api/users', {  //applying a url to fetch data through an fake API called reqres
     method: 'POST',
-    mode: 'CORS',
     headers: {
         'Content-Type': 'application/json'  //telling Fetch that you will gonna be passing JSON
     },
