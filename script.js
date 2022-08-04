@@ -11,4 +11,5 @@ fetch('https://reqres.in/api/users', {  //applying a url to fetch data through a
         last_name: 'Prescott',
         avatar: 'https://reqres.in/img/faces/10-image.jpg' //adding a new user into the database
     })
-})
+}).then(response => response.json()) //receveing the object Response from Fetch, converting the data to JSON and passing ahead to the other .then
+    
