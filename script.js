@@ -1,4 +1,4 @@
-fetch('https://reqres.in/api/users', { 
+fetch('https://reqres.in/api/users', {  //applying a url to fetch data through an fake API called reqres
     method: 'POST',
     headers: {
         'Content-Type': 'application/json'  //telling Fetch that you will gonna be passing JSON
@@ -11,5 +11,4 @@ fetch('https://reqres.in/api/users', {
         last_name: 'Prescott',
         avatar: 'https://reqres.in/img/faces/10-image.jpg' //adding a new user into the database
     })
-    
 })
