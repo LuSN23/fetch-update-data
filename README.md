@@ -1,5 +1,6 @@
-# Atualizando banco de dados de usuários com a Fetch API
-Testando como atualizar dados em um servidor com a Fetch API.
+# Fetch Update Data
+
+Projeto que consome a API ReqRes usando Fetch e variáveis de ambiente, também é possível alterar dados/usuários de uma base fictícia para testes.
 
 
 ---
@@ -47,7 +48,15 @@ node script.mjs
 
 ---
 
-## 📊 Resultado esperado
+## 📊 Resultado esperados:
+
+### Usando GET para recuperar usuários da base (é feito o uso de uma chave gratuita):
+Você verá no console a resposta da API, algo como:
+
+![Resultado da chamada GET](./screenshot.png)
+
+
+### Usando POST para adicionar usuários à base (é necessário uma chave paga):
 Você verá no console a resposta da API, algo como:
 
 ```json
