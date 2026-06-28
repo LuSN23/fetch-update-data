@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import fetch from 'node-fetch';
 
 fetch('https://reqres.in/api/users', {  // aplicando uma URL para buscar dados através de uma API fake chamada reqres
