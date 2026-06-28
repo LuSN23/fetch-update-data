@@ -3,7 +3,8 @@ import fetch from 'node-fetch';
 fetch('https://reqres.in/api/users', {  // aplicando uma URL para buscar dados através de uma API fake chamada reqres
     method: 'POST',
     headers: {
-        'Content-Type': 'application/json'  // informando ao Fetch que você vai passar JSON
+        'Content-Type': 'application/json',  // informando ao Fetch que você vai passar JSON
+        'x-api-key': process.env.API_KEY    // pegando a chave do arquivo .env por questão de segurança
     },
     body: JSON.stringify({ // convertendo o objeto em JSON para ser transportado,
                            // o body é onde vai o conteúdo que você quer adicionar
