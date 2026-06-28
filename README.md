@@ -1,5 +1,6 @@
-# Updating users database with the Fetch API
-Testing how to update data in a server with the Fetch API.
+# Atualizando banco de dados de usuários com a Fetch API
+Testando como atualizar dados em um servidor com a Fetch API.
+
 
 ---
 # Instruções:
